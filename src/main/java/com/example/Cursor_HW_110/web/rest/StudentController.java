@@ -1,6 +1,5 @@
 package com.example.Cursor_HW_110.web.rest;
 
-import com.example.Cursor_HW_110.entity.Course;
 import com.example.Cursor_HW_110.entity.dto.CourseNoListDTO;
 import com.example.Cursor_HW_110.entity.dto.StudentDTO;
 import com.example.Cursor_HW_110.entity.dto.StudentShortedListDTO;
@@ -10,11 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/student/*")

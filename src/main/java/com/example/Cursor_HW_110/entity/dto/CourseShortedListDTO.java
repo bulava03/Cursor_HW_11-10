@@ -2,7 +2,6 @@ package com.example.Cursor_HW_110.entity.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;

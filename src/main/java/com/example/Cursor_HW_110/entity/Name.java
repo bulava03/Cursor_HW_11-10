@@ -1,7 +1,6 @@
 package com.example.Cursor_HW_110.entity;
 
 import jakarta.persistence.Embeddable;
-import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 

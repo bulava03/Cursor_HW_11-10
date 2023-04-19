@@ -4,7 +4,6 @@ import com.example.Cursor_HW_110.entity.Course;
 import com.example.Cursor_HW_110.entity.Student;
 import com.example.Cursor_HW_110.entity.dto.CourseDTO;
 import com.example.Cursor_HW_110.entity.dto.CourseShortedListDTO;
-import com.example.Cursor_HW_110.entity.dto.StudentNoListDTO;
 import com.example.Cursor_HW_110.exception.CourseNotFoundException;
 import com.example.Cursor_HW_110.exception.StudentNotFoundException;
 import com.example.Cursor_HW_110.repository.CourseRepository;
@@ -16,7 +15,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class CourseServiceImpl implements CourseService {
